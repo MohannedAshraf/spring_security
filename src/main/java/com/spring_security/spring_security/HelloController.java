@@ -10,6 +10,11 @@ public class HelloController {
     public String hello() {
         return "Spring Security done!!";
     }
+
+    @GetMapping("/hi")
+    public String hi() {
+        return "Spring Security finish!!";
+    }
     
     
 }
